@@ -19,6 +19,7 @@ var apod = {
         }
         return `${y}-${m}-${d}`;
     },
+    
     //Injects the results of the API call into the DOM
     buildDOM: function (result) {
 
